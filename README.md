@@ -10,17 +10,17 @@
 
 - The model was evaluated using the following metrics:
 
--- Accuracy
+- Accuracy
 
--- Precision
+- Precision
 
--- Recall
+- Recall
 
--- F1 Score
+- F1 Score
 
--- Confusion Matrix
+- Confusion Matrix
 
--- These metrics were used to evaluate the model's classification performance and understand how well it predicts student success.
+- These metrics were used to evaluate the model's classification performance and understand how well it predicts student success.
 
 ## Dataset
 
@@ -40,10 +40,10 @@
 
 - The trained model was also used to predict the outcome of a new student using:
 
--- Age: 22
+- Age: 22
 
--- Study Hours: 7
+- Study Hours: 7
 
--- Attendance Rate: 85
+- Attendance Rate: 85
 
--The model returns both the predicted class and the probability of each class.
+- The model returns both the predicted class and the probability of each class.
