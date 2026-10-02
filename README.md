@@ -1,14 +1,14 @@
 # student-success-classification
 
-This project develops a machine learning model to predict whether a student will be successful based on their age, study hours, and attendance rate.
+This is a small machine learning project I made to predict whether a student will be successful or not using their age, study hours, and attendance rate.
 
 ## Model
 
-Logistic Regression was used to predict whether a student would be successful based on the available student data.
+I used Logistic Regression for this project to predict whether a student would be successful based on the given student data.
 
 ## Evaluation
 
-The model was evaluated using the following metrics:
+I evaluated the model using the following metrics:
 
 - Accuracy
 
@@ -20,7 +20,7 @@ The model was evaluated using the following metrics:
 
 - Confusion Matrix
 
-These metrics were used to evaluate the model's classification performance and understand how well it predicts student success.
+I used these metrics to see how well the model was making predictions and where it was making mistakes.
 
 ## Dataset
 
@@ -34,11 +34,11 @@ These metrics were used to evaluate the model's classification performance and u
 
 - Successful
 
-The Successful column is the target variable. A value of 1 represents a successful student, while 0 represents an unsuccessful student.
+The Successful column is the target variable. A value of 1 means the student was successful, while 0 means the student was unsuccessful.
 
 ## Example Prediction
 
-The trained model was also used to predict the outcome of a new student using:
+I also tested the model with a new student using:
 
 - Age: 22
 
@@ -46,11 +46,11 @@ The trained model was also used to predict the outcome of a new student using:
 
 - Attendance Rate: 85
 
-The model returns both the predicted class and the probability of each class.
+The model gives a prediction for the student and also shows the probability for each class.
 
 ## Results
 
-The model was evaluated on a separate test set using Accuracy, Precision, Recall, F1 Score, and a Confusion Matrix.
+The model was tested using a separate test set with Accuracy, Precision, Recall, F1 Score, and a Confusion Matrix.
 
 The model achieved:
 
@@ -60,6 +60,6 @@ The model achieved:
 - Recall: 1.00
 - F1 Score: 0.80
 
-The confusion matrix showed that the model correctly identified the successful students in the test set, while one unsuccessful student was incorrectly classified as successful.
+The confusion matrix showed that the model correctly predicted the successful students, but one unsuccessful student was predicted as successful.
 
-Because the dataset is small, these results should not be considered representative of real-world model performance. The project is intended to demonstrate the basic machine learning classification workflow.
+Since the dataset is small, these results should not be taken as real-world performance. I mainly made this project to practice the basic machine learning classification workflow and get more familiar with Logistic Regression and evaluation metrics.
